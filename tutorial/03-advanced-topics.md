@@ -107,10 +107,12 @@ Cloning into 'sbt-idea'...
 > checkout android-support
 Branch android-support set up to track remote branch android-support from origin.
 Switched to a new branch 'android-support'
-> sbt
+> sbt publish-local
 [info] Loading global plugins from ...
 ...
 ```
+
+This will create a `1.5.0-SNAPSHOT` release in your local ivy repository.
 
 You can include it, like any plugin, in your `project/plugins.sbt` :
 
